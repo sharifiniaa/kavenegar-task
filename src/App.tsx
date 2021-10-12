@@ -4,6 +4,9 @@ import { PublicRoute } from "services/Route";
 import { Spin } from "antd";
 import { WEB } from "constant/web";
 
+// global styles
+import "styles/global.scss";
+
 // import pages
 const TicketList = React.lazy(() => import("views/Tickets/TicketList"));
 

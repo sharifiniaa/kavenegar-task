@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "iran-sans";
+  src: url("../assets/fonts/irSans.woff") format("woff-variations"),
+    url("../assets/fonts/irSans.woff") format("woff"),
+    url("../assets/fonts/irSans.eot") format("eot"),
+    url("../assets/fonts/irSans.svg") format("svg"),
+    url("../assets/fonts/irSans.ttf") format("ttf");
+  font-display: fallback;
+  font-display: swap;
+}
+
+body {
+  font-family: "iran-sans" !important;
+}
