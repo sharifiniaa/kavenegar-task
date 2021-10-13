@@ -33,7 +33,7 @@ const PublicLayout: React.FC = ({ children }): React.ReactElement => {
           </Menu>
         </Header>
         <Content className={Styles.content}>
-          <div className={Styles.contentWrapper}>{children}</div>
+          {children}
         </Content>
       </Layout>
     </Layout>
